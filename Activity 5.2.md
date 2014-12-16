@@ -22,10 +22,9 @@ between70n80
 between80n90
 between90n100
 ```
-- i. Write a procedure called init that sets these variables to 0.
-- ii. Write a procedure that prints out these variables.
-
-- iii. Write a histogram procedure. The procedure has one input and uses the ten global variables above.
+- Write a procedure called init that sets these variables to 0.
+- Write a procedure that prints out these variables.
+- Write a histogram procedure. The procedure has one input and uses the ten global variables above.
 
 Before the procedure is called these variables should be initialized to 0. The procedure histrogram will check to see where
 the input lies, and increment the corresponding  global variable by 1. So histogram(43) would increment between40n50 by 1. 
