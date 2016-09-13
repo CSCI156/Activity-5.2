@@ -1,12 +1,12 @@
 #### 1. You are responsible for writing a program that will help 5000 people register for a meeting. To keep the demand down, 
 people with last names 
 
-               a<= name <= freeman are in room 121
+               a <= name <= freeman are in room 121
                freeman < name <= michelson are in room 201
                michelson < name <= oppenheimer are in room 226
                oppenheimer < name <= z are in room 232
 
-Write a procedure that takes a person’s last name and prints out their room number.
+Write a procedure that takes a person’s last name in lower case and prints out their room number.
 
 #### 2. The next program will have 10 global variables:
 
@@ -23,7 +23,19 @@ between80n90
 between90n100
 ```
 - Write a procedure called init that sets these variables to 0.
-- Write a procedure that prints out these variables.
+```
+def init()
+  global lessthan10
+  global between10n20
+  .
+  .
+  .
+  global between90n100
+  .
+  .
+  .
+```
+- Write a procedure that prints out these variables, remember that the variables should be declared as global again.
 - Write a histogram procedure. The procedure has one input and uses the ten global variables above.
 
 Before the procedure is called these variables should be initialized to 0. The procedure histrogram will check to see where
