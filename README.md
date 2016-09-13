@@ -1,7 +1,7 @@
 #### 1. You are responsible for writing a program that will help 5000 people register for a meeting. To keep the demand down, 
 people with last names 
 
-               A<= name <= freeman are in room 121
+               a<= name <= freeman are in room 121
                freeman < name <= michelson are in room 201
                michelson < name <= oppenheimer are in room 226
                oppenheimer < name <= z are in room 232
