@@ -4,7 +4,7 @@ people with last names
                a <= name <= freeman are in room 121
                freeman < name <= michelson are in room 201
                michelson < name <= oppenheimer are in room 226
-               oppenheimer < name <= z are in room 232
+               oppenheimer < name are in room 232
 
 Write a procedure that takes a person’s last name in lower case and prints out their room number.
 
